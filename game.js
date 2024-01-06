@@ -82,7 +82,6 @@ const startGame = () => {
 }
 
 document.addEventListener('keydown', ({ key }) => {
-  console.log(key)
   if (!paddleMoveLeft && key === 'ArrowLeft') paddleMoveLeft = true;
   if (!paddleMoveRight && key === 'ArrowRight') paddleMoveRight = true;
 })
